@@ -1,0 +1,28 @@
+*{
+  background-color: blue;
+
+}
+h1{
+  font-size: 100px;
+}
+#titulo{
+  color: brown;
+}
+
+.paragrafo{
+  color: yellow;
+  font-weight: bold;
+}
+
+.div1{
+  background-color: violet;
+  height: 900px;
+  width: 700px;
+
+  margin: 200px 100px 50px 150px;
+  padding: 100px 10px;
+}
+
+.div1:hover{
+  background-color: purple;
+}

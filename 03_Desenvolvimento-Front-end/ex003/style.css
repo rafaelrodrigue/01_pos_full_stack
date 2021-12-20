@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#div-1{
+  width: 350px;
+  height: 350px;
+  background-color: purple;
+}
+
+#div-2{
+  width: 350px;
+  height: 350px;
+  background-color: blue;
+}
+
+#div-3{
+  width: 350px;
+  height: 350px;
+  background-color: green;
+}
