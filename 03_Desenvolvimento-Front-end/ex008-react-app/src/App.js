@@ -1,12 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState, useEffect} from 'react';
 
-function App() {
-  return (
+const App = () => {
+  
+  const [valor, setValor] = useState(0);
+  
+  useEffect(() =>{
+    alert('ok');
+  }, [valor])
+
+  const alteraValor = () =>{
+    setValor(valor + 1)
+  }
+
+  return(
     <div>
-      <h1>Hello World!</h1>
+      <p style={{color: 'red'}}>{valor}</p>
+      <button onClick={alteraValor}>Pressione</button>
     </div>
-  );
+  )
 }
 
 export default App;
