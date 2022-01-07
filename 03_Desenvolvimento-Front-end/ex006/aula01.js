@@ -20,3 +20,16 @@ let minhaFunc = function teste(){
 const minhaCidade = "Porteirinha"; 
 
 console.log (minhaCidade);
+
+const values = [
+  5,
+  "JavaScript",
+  function(){ console.log('Hello World')},
+  'Front-end'
+];
+
+const newValues = values.map(function(item){
+  return item * 2;
+})
+
+console.log(newValues);
