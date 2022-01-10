@@ -1,0 +1,28 @@
+.container-contato{
+  height: calc(100vh - 130px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.texto{
+  background-color: lightblue;
+  padding: 20px;
+  width: 100px;
+}
+
+.cadastro{
+  background-color: lightcoral;
+  border-radius: 8px;
+  line-height: 5vh;
+  padding: 20px;
+}
+
+.cadastro form{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  
+}
+
