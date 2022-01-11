@@ -5,7 +5,7 @@ import './styles.css'
 const Header = () => {
   return(
     <main className="container-main">
-      <h1>Consultoria</h1>
+      <h1>Assessoria e consultoria</h1>
 
       <ul>
         <li><Link to="/"><a>Home</a></Link></li>
