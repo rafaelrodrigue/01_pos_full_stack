@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .container-contato{
-  background-image: url('../../img/fundo-contato.jpg');
-  background-size: cover;
-  background-position: left;
-  height: calc(100vh - 130px);
+  height: 86vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
 
+}
+
+.container-contato img{
+  max-width: 25%;
 }
 
 .cadastro{

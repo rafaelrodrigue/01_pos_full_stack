@@ -1,42 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .container-home{
-  background-image: url('../../img/fundo-home.jpg');
-  background-size: cover;
-  background-position:left;
-  height: calc(100vh - 130px);
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto', sans-serif;
-  color: blue;
 }
 
-.container-home section{
-  color: #8C3D20;
-  margin: 10px 0px;
-  max-width: 500px;
-  position: relative;
-  right: 150px;
+.container-home img{
+  width: 30%;
 }
 
-.container-home section h1{
+.principal{
+  max-width: 400px;
+}
+
+.principal h1{
   margin: 20px 0;
   font-weight: bold;
 }
 
-.container-home section p{
+.principal p{
   font-size: 3.5vh;
   margin: 20px 0;
 
 }
 
-.container-home section button{
+.principal button{
   background-color: #8C3D20;
   width: 150px;
   border: none;
   color: #fff;
   height: 35px;
   font-weight: bold;
-  border-radius: 1px;
+  border-radius: 4px;
+ 
 }
+
+/*.secundaria{
+  display: flex;
+  background-color: lightsalmon;
+  position: relative;
+  top: 43vh;
+  padding: 20px 10px;
+}
+
+.secundaria div{
+  background-color: lightseagreen;
+  margin: 0px 80px;
+ 
+}
+*/

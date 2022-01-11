@@ -1,12 +1,12 @@
 .container-service{
-  max-width: 450px;
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
-  border-radius: 25px;
-  margin: 2%;
+  max-width: 350px;
+  border: none;
+  margin: 130px 30px 52px 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center ;
+  justify-content: center ;
+  height: 58vh;
 }
 
 .container-service img{
@@ -14,5 +14,6 @@
 }
 
 .container-service p{
+  text-align: justify;
   margin: 20px 0;
 }

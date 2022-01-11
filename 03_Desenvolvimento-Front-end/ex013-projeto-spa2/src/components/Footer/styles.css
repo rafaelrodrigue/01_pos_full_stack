@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 footer{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  padding: 30px 0px;
+}
+
+.section-footer{
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 50px;
-  background-color: #592519;
-  color: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.685);
+}
+
+.section-footer h2{
+  margin: 0px 20px;
+ 
+  font-weight: normal;
+  color: lightgray;
+  font-size: medium;
 }
